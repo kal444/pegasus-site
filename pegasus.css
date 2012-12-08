@@ -1,0 +1,12 @@
+BODY {
+	background: white;
+}
+
+A:link, A:visited, A:active {
+	color: blue;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}

@@ -1,0 +1,293 @@
+<!--The Search Engine page of Ke Huang's Homepage-->
+<HTML>
+<HEAD>
+<TITLE>Ke Huang's Homepage - Search Engines</TITLE>
+<META  name="description" content="Ke Huang's Homepage">
+<META  name="keywords" content="Ke, Huang, Starwar, StarTrek, Transformer, Games, Anime, Personal, Linux, Links, Homepage">
+</HEAD>
+<BODY BGCOLOR=#FFFFFF BACKGROUND="img/background.gif">
+
+<!--Search Area-->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 BGCOLOR=#CCCCFF>
+	<!--HotBot Search-->
+	<TR>
+		<TD ROWSPAN=18 WIDTH=16 BGCOLOR=#CCCCFF>
+			&nbsp;
+		</TD>
+		<TD COLSPAN=2 BGCOLOR=#CCCCFF>
+			<B>HotBot:</B>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 HEIGHT=56 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=BOTTOM>
+			<A HREF="http://www.hotbot.com"><IMG SRC="img/search/hotbot.gif" WIDTH=200 HEIGHT=56 ALT="HotBot" BORDER=0></A>
+		</TD>
+		<TD ROWSPAN=18 WIDTH=16 BGCOLOR=#CCCCFF>
+			&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM action="http://www.hotbot.com/" name="HSQ">
+			<INPUT TYPE=text VALUE="" SIZE=32 name="MT" maxlength="300"><BR>
+			<SELECT NAME="SM">
+				<OPTION VALUE="MC" selected>all the words
+			        <OPTION VALUE="SC">any of the words
+			        <OPTION VALUE="phrase">the exact phrase
+			        <OPTION VALUE="name">the person
+			        <OPTION VALUE="url">links to this URL
+			        <OPTION VALUE="B">the Boolean
+			</SELECT>
+			<SELECT NAME="SW" >
+			        <OPTION VALUE="web" selected>the Web
+			        <OPTION VALUE="usenet">Usenet News
+			        <OPTION VALUE="both">Web&Usenet
+			</SELECT>
+		</TD>
+		<TD>
+			<INPUT TYPE=hidden NAME=DC VALUE=50>
+			<INPUT TYPE=hidden NAME=DE VALUE=2>
+			<INPUT TYPE=hidden NAME="RG" VALUE="NA">
+			<INPUT TYPE=hidden NAME="_v" VALUE="2">
+			<INPUT TYPE=submit name="act.search" VALUE="Search!">
+			<INPUT TYPE=button name="hotbothelp" VALUE="Help!" onClick=alert(hotbot)>
+			<INPUT TYPE="reset" VALUE="Reset">
+		</TD>
+	</TR>
+			</FORM>
+	<!--Yahoo Search-->
+	<TR>
+		<TD COLSPAN=3 BGCOLOR=#CCCCFF>
+			<B>Yahoo:</B>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM METHOD=get ACTION="http://search.yahoo.com/search">
+			<INPUT SIZE=32 NAME=p VALUE=""><BR>
+			<INPUT TYPE=hidden NAME=o VALUE=1>
+			<INPUT TYPE=hidden NAME=S VALUE=1>
+			<INPUT TYPE=hidden NAME=d VALUE=y>
+			<INPUT TYPE=hidden NAME=g VALUE=0>
+			<INPUT TYPE=hidden NAME=n VALUE=50>
+			<SELECT NAME=za>
+				<OPTION VALUE="default" SELECTED>Intelligent default
+				<OPTION VALUE="phrase">An exact phrase match
+				<OPTION VALUE="and">Matches on all words
+				<OPTION VALUE="or">Matches on any word
+				<OPTION VALUE="person">A person's name
+			</SELECT>
+			<SELECT NAME=h>
+				<OPTION VALUE="c" SELECTED>Categories
+				<OPTION VALUE="s">Sites
+			</SELECT><BR>
+		</TD>
+		<TD>
+			<INPUT TYPE=submit VALUE="Search!">
+			<INPUT TYPE=button name="yahoohelp" VALUE="Help!" onClick=alert(yahoo)>
+			<INPUT TYPE="reset" VALUE="Reset">
+		</TD>
+		<TD ROWSPAN=1 WIDTH=200 HEIGHT=60 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=BOTTOM>
+			<A HREF="http://www.yahoo.com"><IMG SRC="img/search/yahoo.gif" WIDTH=200 HEIGHT=60 ALT="Yahoo!" BORDER=0></A>
+		</TD>
+	</TR>
+			</FORM>
+	<!--Britannica Online-->
+	<TR>
+		<TD COLSPAN=3 BGCOLOR=#CCCCFF>
+			<B>Britannica Online:</B>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<form action="http://www.eb.com:180/cgi-bin/g" method="GET" enctype="x-www-form-encoded">
+			<input type="text" SIZE=32 name="keywords"><BR>
+			<select name=DBase>
+				<option value=Articles selected>Articles / Britannica Online
+				<option value=Dictionary>Dictionary
+				<option value=Index>Index / Britannica Online
+			</select>
+		</TD>
+		<TD>
+			<input type=hidden name=hits value=40>
+			<input type="submit" value="Search!">
+			<INPUT TYPE=button name="ebhelp" VALUE="Help!" onClick=alert(eb)>
+			<input type="reset" value="Reset">
+		</TD>
+		<TD ROWSPAN=1 WIDTH=200 HEIGHT=55 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=TOP>
+			<A HREF="http://www.eb.com:180"><IMG SRC="img/search/britonli.gif" WIDTH=200 HEIGHT=55 ALT="Britannica Online" BORDER=0></A>
+		</TD>
+	</TR>
+			</FORM>
+	<!--eXcite Search-->
+	<TR>
+		<TD COLSPAN=2 BGCOLOR=#CCCCFF>
+			<B>eXcite:<B>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 HEIGHT=55 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=BOTTOM>
+			<A HREF="http://www.excite.com"><IMG SRC="img/search/excite.gif" WIDTH=200 HEIGHT=55 ALT="eXcite" BORDER=0></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM name=search action=http://www.excite.com/search.gw method=get>
+			<input type=hidden name=trace value=a>
+			<input name=search SIZE=32>
+		</TD>
+		<TD>
+			<input type=submit value="Search!">
+			<INPUT TYPE=button name="excitehelp" VALUE="Help!" onClick=alert(excite)>
+			<input type=reset value=Reset>
+		</TD>
+	</TR>
+			</FORM>
+	<!--Alta Vista Advanced Search-->
+	<TR>
+		<TD COLSPAN=3 BGCOLOR=#CCCCFF>
+			<B>Alta Vista:</B>
+		</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<FORM method=GET action="http://altavista.digital.com/cgi-bin/query">
+			<!--Query type-->
+			<INPUT TYPE=hidden NAME=pg VALUE=aq>
+			<!--Search Where-->
+			<INPUT TYPE=hidden NAME=what VALUE=web>
+			<!--Output Format-->
+			<INPUT TYPE=hidden NAME=fmt VALUE=".">
+			<!--Query-->
+			<textarea name=q cols=28 rows=4 wrap=soft></textarea>
+		</TD>
+		<TD>
+			<!--Ranking-->
+			<B>Results Ranking Criteria:</B><BR>
+			<textarea name=r cols=20 rows=1 wrap=soft></textarea>
+			<!--Start Date-->
+			<INPUT TYPE=hidden NAME=d0 VALUE="">
+			<!--End Date-->
+			<INPUT TYPE=hidden NAME=d1 VALUE=""><BR>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=TOP>
+			<A HREF="http://altavista.digital.com"><IMG SRC="img/search/avlogo.gif" WIDTH=200 HEIGHT=70 ALT="Alta Vista" BORDER=0></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<INPUT TYPE=submit VALUE="Search!">
+			<INPUT TYPE=button name="avhelp" VALUE="Help!" onClick=alert(av)>
+			<INPUT TYPE=reset VALUE="Reset">
+		</TD>
+	</TR>
+			</FORM>
+	<!--Infoseek Search-->
+	<TR>
+		<TD COLSPAN=2 BGCOLOR=#CCCCFF>
+			<B>Infoseek:</B>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 HEIGHT=54 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=BOTTOM>
+			<A HREF="http://www.infoseek.com"><IMG SRC="img/search/infoseek.gif" WIDTH=200 HEIGHT=54 ALT="Infoseek" BORDER=0></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM name="search_box" method="get" action="http://guide.infoseek.com/Titles">
+			<INPUT TYPE="text" NAME="qt" SIZE=32 VALUE="" MAXLENGTH=511><br>
+			<INPUT TYPE=hidden NAME="col" VALUE="WW">
+		</TD>
+		<TD>
+			<INPUT TYPE="submit" VALUE="Search!">
+			<INPUT TYPE=button name="infoseekhelp" VALUE="Help!" onClick=alert(infoseek)>
+			<INPUT TYPE="reset" VALUE="Reset">
+			<INPUT TYPE=hidden NAME="sv" VALUE="IS">
+			<INPUT TYPE=hidden NAME="lk" VALUE="noframes">
+			<INPUT TYPE=hidden NAME="nh" VALUE="25">
+		</TD>
+	</TR>
+			</FORM>
+	<!--Lycos Search-->
+	<TR>
+		<TD COLSPAN=2 BGCOLOR=#CCCCFF>
+			<B>Lycos:</B>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 HEIGHT=65 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=BOTTOM>
+			<A HREF="http://www.lycos.com"><IMG SRC="img/search/lycos.gif" WIDTH=200 HEIGHT=65 ALT="Lycos" BORDER=0></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM ACTION="http://www.lycos.com/cgi-bin/pursuit" METHOD=GET>
+			<INPUT TYPE=hidden name="cat" value="lycos">
+			<INPUT TYPE="text" NAME="query" VALUE="" SIZE=32><BR>
+			<select name="matchmode">
+				<option selected value="and">match all (AND)
+				<option value="or">match any (OR)
+				<option value="2">match 2 terms 
+				<option value="3">match 3 terms 
+				<option value="4">match 4 terms 
+				<option value="5">match 5 terms 
+				<option value="6">match 6 terms 
+				<option value="7">match 7 terms 
+			</select>
+			<select name="minscore">
+				<option value=".1">loose match
+				<option value=".3">fair match 
+				<option value=".5">good match 
+			<option value=".7">close match 
+			<option selected value=".9">strong match
+			</select>
+		</TD>
+		<TD>
+			<INPUT TYPE=hidden name="maxhits" value="40">
+			<INPUT TYPE=hidden name="terse" value="standard">
+			<INPUT TYPE="submit" VALUE="Search!">
+			<INPUT TYPE=button name="lycoshelp" VALUE="Help!" onClick=alert(lycos)>
+			<INPUT TYPE="reset" VALUE="Reset">
+		</TD>
+	</TR>
+			</FORM>
+	<!--WebCrawler Search-->
+	<TR>
+		<TD COLSPAN=2 BGCOLOR=#CCCCFF>
+			<B>WebCrawler:</B>
+		</TD>
+		<TD ROWSPAN=2 WIDTH=200 HEIGHT=50 BGCOLOR=#CCCCFF ALIGN=LEFT VALIGN=MIDDLE>
+			<A HREF="http://www.webcrawler.com"><IMG SRC="img/search/webcrawl.gif" WIDTH=200 HEIGHT=50 ALT="WebCrawler" BORDER=0></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<FORM NAME="wcsearchform" ACTION="http://www.webcrawler.com/cgi-bin/WebQuery" METHOD="GET">
+			<INPUT TYPE="hidden" NAME="mode" VALUE="summaries">
+			<INPUT NAME="searchText" SIZE=32>
+		</TD>
+		<TD>
+			<INPUT TYPE="hidden" NAME="maxHits" VALUE="100">
+			<INPUT TYPE="submit" value="Search!">
+			<INPUT TYPE=button name="webcrawhelp" VALUE="Help!" onClick=alert(webcraw)>
+			<INPUT TYPE="reset" VALUE="Reset">
+		</TD>
+	</TR>
+			</FORM>
+	<TR>
+		<TD COLSPAN=3 BGCOLOR=#CCCCFF>
+			&nbsp;
+		</TD>
+	</TR>
+</TABLE>
+
+<script language="JavaScript">
+<!---//hide script from old browsers
+	document.write("<HR><P ALIGN=right>This page is last updated <B><FONT COLOR=#FF0000>"+ document.lastModified+"</FONT></B></P>");
+//end hiding contents --->
+<!---//hide script from old browsers
+	var hotbot="HotBot!";
+	var yahoo="Yahoo!";
+	var eb="Britannica On-Line";
+	var excite="Excite!";
+	var av="Alta Vista";
+	var infoseek="Infoseek";
+	var lycos="Lycos";
+	var webcraw="WebCrawler";
+//end hiding contents --->
+</script> 
+</BODY>
+</HTML>
